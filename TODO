@@ -1,0 +1,19 @@
+* Fatorar pyglet_snake.py w pygame_snake.py de forma
+a ter todo o código comum em um outro arquivo - mais de 80%
+do codigo dos dois é o mesmo.
+
+* verificar o gargalo de atualizacao da tela (pyglet) e possivelmente no pygame
+
+* Acresecntar infra-estrutura abstrata para controle das cobras
+
+* Acrescentar possibilidade de haver outras cobras controladas
+   por outro jogador, pela maquina ou por outra instancia do progrma, na rede
+   (usar Pyro)
+* Acrescentar mais fases, desafios
+
+* Melhorar os gráficos:
+     * refazer os bitmaps
+     * cabeça da cobra :-)
+     * criar uma visão parcial do mapa, com scroll e zoom
+       (o gargalo de bitmaps tem que ser resolvido antes)
+

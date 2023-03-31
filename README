@@ -1,0 +1,25 @@
+Autor: João S. O. Bueno
+
+Seguindo discussões nas listas python brasile  python-gamedev-brasil da semana de 
+25 de agosto de 2008, resolvi fazer esta implementação com os seguintes intuitos:
+    - usar na minah apresnetação no evento da impacta dia 30/08
+    http://www.impacta.com.br/eletter/palestra_python/eletter.asp - em 29/08/2008
+    
+O código está bem bobinho, só paramostrar um exmeplo mesmo sobre o qual pretendo falar amanhã.
+Se eu tiver disposição hoje ainda, vou aproveitar que fiz o jogo de forma bastante abstraida e fazer um front-end em pygame também, alem do atual usando pyglet.
+
+
+OS demais usuários do Pygame-devel, fiquem a  vontade para evoluir o projeto - 
+inclusive como a pversãoq eu estou faznedo commit agora foi feita em dois dias
+tem umas coisas meio "add hoc" (vulgo: gambiarras): tipo coiassa similares, feitas
+em lugares diferentes de jeitos diferentes.
+
+Vou deixar assim pra falar amanhã na palestra, mas depois é legal
+
+1) unificar o carregamento de mídia (imagem e sons) : estão sendo feitos 
+em lugares diferentes e de um jeito um pouco diferente
+
+2) usar um método único de notificação para a Cobra: ela está levantando uma exceção quando morre, e usando um callback quando coem uma maçã. Resolvi que o melhor
+mesmo é o callback - e, s eo porjeto for crescer, uma l"lista de callbacks",
+que na prática re-implementa "sinais e slots"  dos sistemas de programação GUI.
+

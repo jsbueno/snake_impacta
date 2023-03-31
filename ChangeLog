@@ -1,0 +1,44 @@
+2008-08-30  João S. O. Bueno  <gwidion@mpc.com.br>
+
+       * FreeSans.ttf: Added.
+       * COPYING: Updated to mention FreeSans.ttf as non GPL 3 file
+
+2008-08-29  João S. O. Bueno  <gwidion@mpc.com.br>
+
+       * pygame_snake.py: Criado - implementacao de pyglet alterada
+       para funcioanr com pygame.
+       * TODO: Criado
+
+2008-08-29  João S. O. Bueno  <gwidion@mpc.com.br>
+
+        * snake.py: corrige para que a instância do mapa
+        passe a existir quando executa o teste em modo texto.
+
+2008-08-29  João S. O. Bueno  <gwidion@mpc.com.br>
+
+        * snakes.py
+        * pyglet_snakes.py
+        * AUTHORS
+        * KDE_Beep_Bottles.wav
+        * COPYING
+        * KDE_Critical_Error.wav
+        * esfera_1.png, parede.png, quadrado_preto.png, pop.wav:
+        Atribuição de licença GPL v3.0 aos projetos e commit inicial
+        no google-code da python-gamedev-brasil
+
+2008-08-28  João S. O. Bueno  <gwidion@mpc.com.br>
+
+        * snake.py: correção de bug no algorítmo de extensão da cobra;
+        várias atualizações para funcionar como base para a parte gráfica
+
+        * pyglet_snake.py: impleemtnação inicial da parte gráfica com pyglet,
+        com suporte a imagens, controle por teclado, som, contagem de pontos,
+        exibição de placar simples quando a cobra morre e reinício do jogo
+
+
+2008-08-27  João S. O. Bueno  <gwidion@mpc.com.br>
+
+        * snake.py  - implementação inicial do mapa e da cobra, em modo texto
+          a partir de e-mail enviado por Roberto para a lista
+          python-gamedev-brasil@googlegroups.com
+
